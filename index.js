@@ -42,7 +42,7 @@ function App() {
                 </div>
             ): (
                 <div>
-                    cannot access your location!
+                    cannot access your location! Please Refresh the page after when the access is given in case of any issues. 
                     {console.log(data)}
                 </div>
                 )}
