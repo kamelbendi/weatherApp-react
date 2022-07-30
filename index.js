@@ -34,10 +34,12 @@ function App() {
 
    
     return (
-        <div className="main">
+        <div>
             
             {(typeof data.main != 'undefined') ? (
+                <div className="main">
                 <Weather weatherData={data}/>
+                </div>
             ): (
                 <div>
                     cannot access your location!
