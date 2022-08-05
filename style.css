@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
 
+#root{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+
+}
+
 .main{
     width: 700px;
     border-radius: 15px;
